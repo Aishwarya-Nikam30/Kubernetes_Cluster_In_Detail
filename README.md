@@ -113,7 +113,14 @@ Get service info:
 ```bash
 kubectl get svc nginx
 ```
+---
 
+### Ingress
+
+1. `kubectl apply -f ingress.yml`  
+   Configure an Ingress resource for routing traffic.
+2. `kubectl describe ingress nginx-ingress -n nginx`  
+   Display details about an Ingress resource.
 ---
 
 ## 📂 Files in This Repository
